@@ -1,0 +1,35 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">QuickSort</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_randomize">Randomize</string>
+
+    <string name="partition_formatted">The current partition is from <xliff:g id="left">%1$s</xliff:g> (<xliff:g id="leftV">%2$s</xliff:g>) to <xliff:g id="right">%3$s</xliff:g> (<xliff:g id="leftV">%4$s</xliff:g>)</string>
+    <string name="left_cursor_formatted">The left cursor is at <xliff:g id="leftC">%1$s</xliff:g> (<xliff:g id="leftCV">%2$s</xliff:g>)</string>
+    <string name="right_cursor_formatted">The right cursor is at <xliff:g id="rightC">%1$s</xliff:g> (<xliff:g id="rightCV">%2$s</xliff:g>)</string>
+    <string name="pivot_formatted">The pivot value is <xliff:g id="pivot">%1$s</xliff:g></string>
+    <string name="sorting_finished">Sorting has finished</string>
+    <string name="sorting_message_formatted">Sorting has finished with <xliff:g id="comps">%1$s</xliff:g> compares and <xliff:g id="swaps">%2$s</xliff:g> swaps.</string>
+    <string name="title_activity_settings">Settings</string>
+
+
+
+    <!-- Settings -->
+
+    <string name="pref_wait">wait</string>
+    <string name="pref_wait_default">1000</string>
+    <string name="pref_wait_title">Milliseconds to wait during sort</string>
+
+    <string name="pref_num_columns">num_cols</string>
+    <string name="pref_num_columns_default">15</string>
+    <string name="pref_num_columns_title">Number of columns on the chart</string>
+
+    <string name="pref_min_value">min_value</string>
+    <string name="pref_min_value_default">10</string>
+    <string name="pref_min_value_title">Min value on the chart</string>
+
+    <string name="pref_max_value">max_value</string>
+    <string name="pref_max_value_default">100</string>
+    <string name="pref_max_value_title">Max value on the chart</string>
+
+    <!-- End of Settings -->
+</resources>

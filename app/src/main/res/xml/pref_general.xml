@@ -1,0 +1,38 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:defaultValue="@string/pref_wait_default"
+        android:numeric="integer"
+        android:key="@string/pref_wait"
+        android:maxLength="5"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_wait_title" />
+
+    <EditTextPreference
+        android:defaultValue="@string/pref_num_columns_default"
+        android:numeric="integer"
+        android:key="@string/pref_num_columns"
+        android:maxLength="2"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_num_columns_title" />
+
+    <EditTextPreference
+        android:defaultValue="@string/pref_min_value_default"
+        android:numeric="integer"
+        android:key="@string/pref_min_value"
+        android:maxLength="3"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_min_value_title" />
+
+    <EditTextPreference
+        android:defaultValue="@string/pref_max_value_default"
+        android:numeric="integer"
+        android:key="@string/pref_max_value"
+        android:maxLength="3"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_max_value_title" />
+
+</PreferenceScreen>
